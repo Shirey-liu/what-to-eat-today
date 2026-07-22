@@ -1,12 +1,12 @@
-const CACHE_NAME = 'vegetable-blind-box-v1'
+const CACHE_NAME = 'what-to-eat-today-v1'
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/icon-maskable-192.png',
-  '/icon-maskable-512.png',
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png',
+  './icon-maskable-192.png',
+  './icon-maskable-512.png',
 ]
 
 self.addEventListener('install', (event) => {
